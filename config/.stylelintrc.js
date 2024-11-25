@@ -1,4 +1,3 @@
-console.log('============================= I AM RG STYLELINT CONFIG =============================');
 module.exports = {
   extends: ["@edx/stylelint-config-edx"],
   rules: {
