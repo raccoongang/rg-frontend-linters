@@ -16,6 +16,8 @@
     "webpack-merge": "^5.10.0"
   },
   "devDependencies": {
-    "@openedx/frontend-build": "13.0.27"
+    "@openedx/frontend-build": "13.0.27",
+    "stylelint": "^14.15.0",
+    "stylelint-config-standard-scss": "^6.1.0"
   }
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const chalk = require('chalk');
-console.log(chalk.green('Welcome to RG Frontend Linters CLI!'));
+console.log(chalk.green('Welcome to RG Frontend Linters CLI! ============================'));
 const presets = require('../lib/presets');
 
 /**
@@ -51,6 +51,11 @@ switch (commandName) {
         ensureConfigOption(presets.eslint);
         // eslint-disable-next-line import/extensions, import/no-extraneous-dependencies
         require('.bin/eslint');
+        break;
+    case 'stylelint':
+        ensureConfigOption(presets.stylelint);
+        // eslint-disable-next-line import/extensions, import/no-extraneous-dependencies
+        require('.bin/stylelint');
         break;
     default:
         console.log(chalk.red(`[ERROR] fedx-scripts: The command ${chalk.bold.red(commandName)} is unsupported.`));
