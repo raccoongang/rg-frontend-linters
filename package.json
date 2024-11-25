@@ -2,10 +2,20 @@
   "name": "rg-frontend-linters",
   "version": "1.0.0",
   "main": "index.js",
+  "bin": {
+    "rg-fedx-scripts": "./bin/rg-fedx-scripts.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "webpack-merge": "^5.10.0"
+  },
+  "devDependencies": {
+    "@openedx/frontend-build": "13.0.27"
+  }
 }
