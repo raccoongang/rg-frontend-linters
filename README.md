@@ -19,7 +19,7 @@ Include `rg-frontend-linters` as a dependency:
 
 ```json
 "dependencies": {
-  "rg-frontend-linters": "git+https://github.com/raccoongang/rg-frontend-linters.git#main"
+  "rg-frontend-linters": "git+https://github.com/raccoongang/rg-frontend-linters.git#<version>"
 }
 ```
 
@@ -64,3 +64,16 @@ const { createConfig } = require('rg-frontend-linters');
 
 module.exports = createConfig('commitlint');
 ```
+
+### Extending Configuration
+
+Extend the default configuration by adding custom rules or overriding existing ones.
+
+```javascript
+const { createConfig } = require('rg-frontend-linters');
+
+module.exports = createConfig('<configName>', {
+    // Custom rules go here
+});
+```
+
