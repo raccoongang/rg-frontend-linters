@@ -1,16 +1,6 @@
 Technical Solution Overview: RG Frontend Linters
 ================================================
 
-RG Frontend Linters
-       |
-       |---> ESLint Config
-       |---> Stylelint Config
-       |---> CommitLint Config
-       |         |
-       |         |---> brand-openedx
-       |         |---> frontend-component-header
-       |         |---> frontend-component-footer
-
 **RG Frontend Linters** is a solution designed to standardize configurations for **ESLint**, **Stylelint**, and **CommitLint**,
 ensuring consistent code quality, styling, and commit message validation across projects. By abstracting the configuration logic into reusable modules,
 this approach streamlines the integration process for developers, reduces onboarding time, and enforces consistent standards across teams and projects.

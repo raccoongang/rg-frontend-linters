@@ -23,12 +23,6 @@ Include `rg-frontend-linters` as a dependency:
 }
 ```
 
-Install the dependency:
-
-```bash
-    npm install
-```
-
 ### 2. Create a configuration file
 
 Add a configuration file for the desired linter in the root of your project. For example, to configure Stylelint:
