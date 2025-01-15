@@ -16,3 +16,5 @@ Added:
 - add CI checkers: tests, linters checkers
 - add configs and tests
 - add documentation
+
+* no-missing-end-of-source-newline rule to stylelint

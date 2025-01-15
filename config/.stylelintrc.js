@@ -47,5 +47,6 @@ module.exports = {
     "no-descending-specificity": null,
     "import-notation": null,
     "media-feature-range-notation": null,
+    "no-missing-end-of-source-newline": true,
   },
 };
