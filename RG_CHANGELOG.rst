@@ -10,11 +10,10 @@ and this project adheres to customized Semantic Versioning e.g.: `redwood-rg.1`
 ************
 
 Added:
-=====
+======
+* no-missing-end-of-source-newline rule to stylelint (RGInt-303)
 * initialize project structure and add default configs (RGInt-303)
 
-- add CI checkers: tests, linters checkers
-- add configs and tests
-- add documentation
-
-* no-missing-end-of-source-newline rule to stylelint
+  - add CI checkers: tests, linters checkers
+  - add configs and tests
+  - add documentation
