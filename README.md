@@ -1,7 +1,7 @@
 # RG Frontend Linters
 
 **RG Frontend Linters** provides standardized configurations for **ESLint**, **Stylelint**, and **CommitLint**.
-This ensures consistent code quality, style, and commit message conventions across all projects.
+This ensures consistent code quality, style, and commit message conventions across all Open edX projects.
 
 ## Configurations
 
