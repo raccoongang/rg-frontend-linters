@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ["@edx/stylelint-config-edx"],
+  extends: [require.resolve("@edx/stylelint-config-edx")],
   rules: {
     indentation: 2,
     "string-quotes": "double",
