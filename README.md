@@ -23,6 +23,16 @@ Include `rg-frontend-linters` as a dependency:
 }
 ```
 
+If you use the Stylelint configuration, install the supported Stylelint version in the consuming repository:
+
+```bash
+npm install --save-dev stylelint@^15.6.0
+```
+
+### Stylelint compatibility
+
+The Stylelint configuration supports **Stylelint `^15.6.0`** (versions `>=15.6.0 <16.0.0`).
+
 ### 2. Create a configuration file
 
 Add a configuration file for the desired linter in the root of your project. For example, to configure Stylelint:
