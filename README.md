@@ -33,6 +33,21 @@ npm install --save-dev stylelint@^15.6.0
 
 The Stylelint configuration supports **Stylelint `^15.6.0`** (versions `>=15.6.0 <16.0.0`).
 
+If you use the CommitLint configuration, install the CLI in the consuming repository:
+
+```bash
+npm install --save-dev @commitlint/cli@^21.2.1
+```
+
+### CommitLint compatibility
+
+The CommitLint configuration supports **@commitlint/cli `^21.2.1`**. Because
+`@commitlint/config-conventional@21` ships with this package, **v2.0.0 onwards requires Node
+`>=22.12.0`** in the consuming repository; stay on `1.0.0` if you are still on an older runtime.
+
+`@commitlint/config-conventional` is resolved from this package, so the consuming repository does not
+need to declare it. The same applies to `@edx/stylelint-config-edx`.
+
 ### 2. Create a configuration file
 
 Add a configuration file for the desired linter in the root of your project. For example, to configure Stylelint:
