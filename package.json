@@ -1,6 +1,6 @@
 {
   "name": "rg-frontend-linters",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "main": "index.js",
   "scripts": {
     "test": "fedx-scripts jest --coverage",
@@ -11,12 +11,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@commitlint/config-conventional": "^21.2.0",
     "@edx/stylelint-config-edx": "^2.3.3",
-    "webpack-merge": "^5.10.0"
+    "webpack-merge": "^6.0.1"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.4.0",
-    "@openedx/frontend-build": "13.0.27",
+    "@openedx/frontend-build": "14.6.6",
     "jest": "29.7.0"
   }
 }
